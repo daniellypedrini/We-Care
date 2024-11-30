@@ -29,7 +29,6 @@ header {
 
 }
 
-
 .button-link {
     background-color: #665AE1;
     color: #FFFFFF;
@@ -121,10 +120,7 @@ p {
     transition: 0.5s;
 }
 
-
 @media screen and (max-width: 600px) {
-
-    /* Aqui vão os ajustes */
 
     header {
         margin: 10px 0 0 10px; /* Reduz o espaço do lado esquerdo */
