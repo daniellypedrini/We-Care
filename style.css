@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+header {
+    margin: 20px 0 0 79px;
+}
+
+.link {
+    color: #989D9C;
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #665AE1;
+
+}
+
+
+.button-link {
+    background-color: #665AE1;
+    color: #FFFFFF;
+    width: 100px;
+    height: 36px;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.button-link:hover {
+    color: #0c0c0c;
+    background-color: #ADFF00;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+img {
+    width: 568px;
+    height: 500px;
+}
+
+.content {
+    padding-top: 30px;
+
+}
+
+h1 {
+    width: 513px;
+    height: 122px;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 121px;
+    text-align: left;
+    color: #515151;
+    margin-bottom: 15px
+}
+
+h2 {
+    width: 448px;
+    height: 71px;
+    font-family: Montserrat;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70px;
+    text-align: left;
+    color: #515151;
+    margin: 0 0 25px 36px
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    color: #848484
+}
+
+.button-content {
+    font-size: 18px;
+    line-height: 14px;
+    text-align: center;
+    width: 143px;
+    height: 33px;
+    top: 15px;
+    left: 46px;
+    background-color: #ADFF00;
+    color: #000000;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    margin-left: 180px;
+    margin-top: 40px;
+}
+
+.button-content:hover {
+    font-weight: bold;
+    background-color:#665AE1;
+    color: #0c0c0c;
+    transition: 0.5s;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    /* Aqui vão os ajustes */
+
+    header {
+        margin: 10px 0 0 10px; /* Reduz o espaço do lado esquerdo */
+    }
+
+    .link {
+        font-size: 16px; /* Diminui o tamanho da fonte */
+        margin-right: 5px; /* Reduz o espaçamento entre os links */
+    }
+
+    .button-link {
+        width: 80px; /* Diminui a largura do botão */
+        height: 30px; /* Diminui a altura do botão */
+        font-size: 14px; /* Reduz o tamanho do texto */
+    }
+
+    .main {
+        flex-direction: column; /* Alinha os itens verticalmente */
+        align-items: center; /* Centraliza os itens no eixo horizontal */
+        padding-top: 50px; /* Reduz o espaçamento superior */
+    }
+
+    img {
+        width: 300px; /* Reduz a largura da imagem */
+        height: auto; /* Mantém a proporção */
+    }
+
+    h1 {
+        font-size: 48px; /* Reduz o tamanho do título */
+        width: 100%; /* Faz o título ocupar toda a largura */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    h2 {
+        font-size: 32px; /* Reduz o subtítulo */
+        margin: 0; /* Remove as margens */
+        text-align: center; /* Centraliza */
+    }
+
+    p {
+        font-size: 18px; /* Reduz o tamanho do parágrafo */
+        line-height: 24px; /* Ajusta o espaçamento entre linhas */
+        text-align: center; /* Garante o alinhamento central */
+        width: 90%; /* Ajusta a largura */
+    }
+
+    .button-content {
+        width: 120px; /* Reduz a largura */
+        height: 30px; /* Reduz a altura */
+        margin-left: 0; /* Remove a margem lateral */
+        margin-top: 20px; /* Ajusta o espaçamento superior */
+        font-size: 14px; /* Reduz o tamanho da fonte */
+        text-align: center; /* Centraliza o texto no botão */
+    }
+}
+
