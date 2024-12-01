@@ -150,31 +150,35 @@ p {
         height: auto; /* Mantém a proporção */
     }
 
-    h1 {
-        font-size: 48px; /* Reduz o tamanho do título */
+    .content {
+        padding-top: 10px
+    }
+
+    h1 {       
         width: 100%; /* Faz o título ocupar toda a largura */
-        text-align: center; /* Centraliza o texto */
+        margin-bottom: -32px;
     }
 
     h2 {
-        font-size: 32px; /* Reduz o subtítulo */
-        margin: 0; /* Remove as margens */
-        text-align: center; /* Centraliza */
+        width: 448px;
+        height: 71px;
+        font-weight: 500;
+        line-height: 70px;
     }
 
     p {
-        font-size: 18px; /* Reduz o tamanho do parágrafo */
-        line-height: 24px; /* Ajusta o espaçamento entre linhas */
-        text-align: center; /* Garante o alinhamento central */
-        width: 90%; /* Ajusta a largura */
+    visibility: hidden;
     }
 
     .button-content {
-        width: 120px; /* Reduz a largura */
-        height: 30px; /* Reduz a altura */
-        font-size: 14px; /* Reduz o tamanho da fonte */
-        text-align: center; /* Centraliza o texto no botão */
-        margin: auto;
+        background-color: #ADFF00;
+        color: #000000;
+        border-radius: 50px;
+        cursor: pointer;
+        border: none;
+        display: flex;
+        padding-top: 7px;
+        justify-content: space-around;
     }
 }
 
