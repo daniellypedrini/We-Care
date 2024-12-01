@@ -135,6 +135,8 @@ p {
         width: 80px; /* Diminui a largura do botão */
         height: 30px; /* Diminui a altura do botão */
         font-size: 14px; /* Reduz o tamanho do texto */
+        text-align: center;
+        margin: auto;
     }
 
     .main {
@@ -170,10 +172,9 @@ p {
     .button-content {
         width: 120px; /* Reduz a largura */
         height: 30px; /* Reduz a altura */
-        margin-left: 0; /* Remove a margem lateral */
-        margin-top: 20px; /* Ajusta o espaçamento superior */
         font-size: 14px; /* Reduz o tamanho da fonte */
         text-align: center; /* Centraliza o texto no botão */
+        margin: auto;
     }
 }
 
